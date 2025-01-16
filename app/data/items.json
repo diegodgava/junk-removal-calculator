@@ -1,0 +1,68 @@
+[
+    {
+      "category": "Seating",
+      "items": [
+        { "name": "Couch", "price": 30, "description":"Small 2 seat couch. Ask if It's a recliner" },
+        { "name": "Loveseat - Reclining", "price": 30, "description": "Same price if not reclining"},
+        { "name": "Couch - Reclining", "price": 100, "description":"Small 2 seat reclining couch" },
+        { "name": "Sectional - Reclining", "price": 145 },
+        { "name": "Sectional - Sleeper", "price": 170 },
+        { "name": "Sectional - 2 seats", "price": 60 },
+        { "name": "Sectional - 3 seats", "price": 80 },
+        { "name": "Sectional - 4 seats", "price": 150 },
+        { "name": "Sectional - 5 seats", "price": 170 },
+        { "name": "Sectional - 6+ seats", "price": 220 },
+        { "name": "Sleeper Sofa", "price": 90 }
+      ]
+    },
+    {
+      "category": "Beds",
+      "items": [
+        { "name": "Mattress - Full", "price": 30 },
+        { "name": "Mattress - King", "price": 35 },
+        { "name": "Mattress - Queen", "price": 30 },
+        { "name": "Mattress - Twin", "price": 20 },
+        { "name": "Bed Base - Full", "price": 35 },
+        { "name": "Bed Base - King", "price": 45 },
+        { "name": "Bed Base - Queen", "price": 40 },
+        { "name": "Bed Base - Twin", "price": 35 },
+        { "name": "Box Spring - Full", "price": 25 },
+        { "name": "Box Spring  - KING/CAL KING", "price": 40 },
+        { "name": "Box Spring  - QUEEN", "price": 25 },
+        { "name": "Box Spring  - TWIN", "price": 20 },
+        { "name": "Bed Frame", "price": 30 }
+      ]
+    },  
+    {
+      "category": "Furniture",
+      "items": [
+        { "name": "Dresser", "price": 80 },
+        { "name": "Vertical Dresser", "price": 60 },
+        { "name": "Mirror - Dresser", "price": 30, "description":"Price of the mirror only, add the dresser as well." },
+        { "name": "Chair", "price": 20 }
+      ] 
+    },
+    {
+      "category": "Appliances",
+      "items": [
+        { "name": "Air Conditioner", "price": 100 },
+        { "name": "Refrigerator", "price": 70 },
+        { "name": "Refrigerator (mini) - Empty", "price": 50 },
+        { "name": "Refrigerator - Built in", "price": 320, "description": "Price if the client needs us to disconect the refrigerator." },
+        { "name": "Refrigerator - Built in - Curbside", "price": 200, "description": "Price if the refrigerator is already disconected" },
+        { "name": "Washer", "price": 90 },
+        { "name": "Water heater", "price": 80 }
+      ]
+    },
+    {
+      "category": "Misc",
+      "items": [
+        { "name": "Bag of Junk", "price": 25, "description": "Standard contractor 55 gallons bag" },
+        { "name": "Wood Pallet - Flat 4ft x 4ft", "price": 20 },
+        { "name": "Basketball hoop", "price": 40 },
+        { "name": "Bicycle", "price": 25 },
+        { "name": "Treadmill", "price": 80, "description": "Price for residential folding treadmill only" }
+      ]
+    }
+  ]
+  
