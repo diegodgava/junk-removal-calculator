@@ -34,8 +34,9 @@ const CategoryCard = ({ group, onExpand }) => {
       {infoImageUrl[group.category] && (
         <a
           href={infoImageUrl[group.category]}
-          target="_blank"  // Garantir que o link seja aberto em nova guia
-          rel="noopener noreferrer"  // Segurança recomendada ao usar target="_blank"
+          target="_blank" // Garantir que o link seja aberto em nova guia
+          rel="noopener noreferrer" // Segurança recomendada ao usar target="_blank"
+          onClick={(e) => e.stopPropagation()} // Previne que o evento de clique afete o card
           className="text-blue-500 hover:text-blue-700 transition-colors"
         >
           <FaInfoCircle className="text-xl" />
@@ -44,4 +45,5 @@ const CategoryCard = ({ group, onExpand }) => {
     </div>
   );
 };
+
 export default CategoryCard;
