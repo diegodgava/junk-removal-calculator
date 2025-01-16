@@ -63,16 +63,12 @@ const SelectedItems = ({ selectedItems, onAddItem, onRemoveItem }) => {
       {/* Exibindo o valor base e o total */}
       <div className="mt-4 border-t pt-4">
         <div className="flex justify-between">
-          <p className="text-lg font-semibold">Base Price:</p>
-          <p className="text-lg">${basePrice.toFixed(2)}</p>
-        </div>
-        <div className="flex justify-between">
-          <p className="text-lg font-semibold">Total for Items:</p>
-          <p className="text-lg">${totalItemPrice.toFixed(2)}</p>
+          <p className="text-sm">Base Price:</p>
+          <p className="text-sm">${basePrice.toFixed(2)}</p>
         </div>
         <div className="flex justify-between mt-2">
-          <p className="text-lg font-semibold">Total Quote:</p>
-          <p className="text-lg text-green-600">${totalPrice.toFixed(2)}</p>
+          <p className="text-lg font-extrabold">Total Quote:</p>
+          <p className="text-lg text-green-600 font-extrabold ">${totalPrice.toFixed(2)}</p>
         </div>
       </div>
     </div>
